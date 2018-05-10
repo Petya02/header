@@ -1,0 +1,96 @@
+@import "bootstrap/bootstrap.scss";
+@import "media.scss";
+
+ul{
+  display: inline-block;
+}
+
+body{
+    width: 100%;
+}
+
+  .swiper-container {
+    width: 100%;
+    height: 100%;
+    margin-top: 0;
+  }
+  .swiper-slide {
+    background: #b1abab;
+  }
+
+.header{
+    width: 100%;
+    height: 800px;
+    // &__slide1{
+    //   background-image: url(../images/.png);
+    //   background-repeat: no-repeat;
+    //   background-size: cover;
+    // }
+    // &__slide2{
+    //   background-image: url(../images/.png);
+    //   background-repeat: no-repeat;
+    //   background-size: cover;
+    // }
+    // &__slide3{
+    //   background-image: url(../images/.png);
+    //   background-repeat: no-repeat;
+    //   background-size: cover;
+    // }
+    // &__slide4{
+    //   background-image: url(../images/.png);
+    //   background-repeat: no-repeat;
+    //   background-size: cover;
+    // }
+    &__finance{
+      font-family: Verdana, Arial, Helvetica, sans-serif;
+      position: relative;
+      top: 42px;
+      left: 56px;
+      color: #ffffff;
+      display: inline-block;
+      font-size: 40px;
+    }
+    &__home{
+      position: relative;
+      top: 40px;
+      left: 73%;
+      margin-left: 55px;
+      display: inline-block;
+    }
+    &__blog{
+      text-decoration: none;
+      color: #ffffff;
+    }
+    &__more{
+      width: 130px;
+      background-color: #ffffff;
+      height: 30px;
+      border: 0;
+      border-radius: 30px;
+      display: inline-block;
+    }
+    &__products{
+      color: #ffffff;
+      display: inline-block;
+      font-size: 19px;
+      margin-bottom: 15px;
+    }
+    &__provide{
+      margin-bottom: 50px;
+      color: #ffffff;
+      font-size: 40px;
+      font-family: Verdana, Geneva, sans-serif;
+      font-weight:bold;
+    }
+    &__financial{
+      margin-bottom: 47px;
+      color: #ffffff;
+      font-size: 13px;
+    }
+    &__future{
+      position: relative;
+      top: 300px;
+      left: 650px;
+      width: 580px;
+    }
+}
